@@ -10,10 +10,11 @@ import (
 	"github.com/gocolly/colly"
 )
 
+/*
 type item struct {
 	Name  string `json:"name"`
 	Price string `json:"price"`
-}
+}*/
 
 func TeterumWebScraper() []item {
 	c := colly.NewCollector(
